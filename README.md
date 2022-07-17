@@ -2,6 +2,8 @@
 
 The backend system for the whereto application.
 
+Want to set this project up locally? Check out the [development documentation](docs/development.md).
+
 ### Quick commands
 
 ```bash
