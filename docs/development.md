@@ -25,7 +25,7 @@ All steps to install and run the application locally.
 
 Test the local environment by going to the specified url with the path `/api/status/ping`. If successful, a json message `ping` will be returned.
 
-**Note:** This only creates an empty project 
+**Notice:** This setup has no data stored in the local MongoDB collection. Send a love letter to one of the fellow developers to retrieve a database export.  
 
 ### Environment variables
 
