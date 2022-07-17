@@ -1,0 +1,7 @@
+# folders
+.vscode/
+target/
+temp/
+
+# files
+.env
