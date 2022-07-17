@@ -37,7 +37,7 @@ ROCKET_port=8000
 ROCKET_ident="whereto"
 
 # app variables
-APP_NAME="databin"
+APP_NAME="whereto"
 
 # database variables
 mongo_url="localhost"
