@@ -10,6 +10,7 @@ All requirements to run the application locally.
 1. Rust
 2. MongoDB
 3. Optional: docker and docker-compose
+4. Optional: cargo-watch
 ```
 
 ### Local installation
@@ -18,9 +19,9 @@ All steps to install and run the application locally.
 
 ```
 1. Clone the repo in your desired folder
-2. Create a MongoDB collection, which equals the environment APP_NAME variable
+2. Create a MongoDB collection
 3. Fill in the environment variables (.env file) where needed
-4. Run the development command `cargo watch -x run` (this automatically installs the dependencies)
+4. Run the development command `cargo run` or `cargo watch -x run` for hotreloading (this automatically installs the dependencies)
 ```
 
 Test the local environment by going to the specified url with the path `/api/status/ping`. If successful, a json message `ping` will be returned.
@@ -42,4 +43,5 @@ APP_NAME="whereto"
 # database variables
 mongo_url="localhost"
 mongo_port="27017"
+mongo_coll="whereto"
 ```
