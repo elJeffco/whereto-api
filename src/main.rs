@@ -1,5 +1,6 @@
 #[macro_use]
 extern crate rocket;
+use dotenv::dotenv;
 
 // add routes modules and helpers
 mod api;
@@ -11,6 +12,9 @@ use inc::rocket::*;
 
 #[launch]
 async fn rocket() -> _ {
+    // init dotenv variables
+    dotenv().ok();
+
     // init rocket
     rocket::build()
         .register("/", catchers![internal_404, internal_500])
