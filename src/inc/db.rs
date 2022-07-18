@@ -1,4 +1,4 @@
-use mongodb::{options::ClientOptions, Client, Database, Collection, results::CollectionSpecificationInfo};
+use mongodb::{options::ClientOptions, Client, Database};
 use std::env;
 
 async fn connect() -> mongodb::error::Result<Database> {
