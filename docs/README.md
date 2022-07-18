@@ -5,7 +5,7 @@ Documentation regarding the development process of this project, including how t
 ### v0.1 basic data structure
 
 ```
-Data classification: regional, national, municipal
+Data classification: global, regional, national, municipal
 Data categorization: environmental, technological, societal, economical, political, geographical, cultural 
 ```
 
